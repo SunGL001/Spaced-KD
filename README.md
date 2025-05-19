@@ -24,7 +24,7 @@ Our proposed **Spaced KD** is an accessible and compatible strategy to improve t
 
 From our experiments, the space interval s is relatively insensitive and s = 1.5, s = 4.0 results in consistently strong improvements in Online KD and Self KD, respectively.
 
-<img src="https://example.com/image.png" width="200" height="400">
+<img src="diagram.png" width="200" height="400">
 ![](diagram.png)
 
 ## How to run Spaced KD?
