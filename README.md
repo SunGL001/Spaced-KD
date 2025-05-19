@@ -70,7 +70,7 @@ To train a CNN-based models with spaced self KD, please run:
     --wandb_project SKD \
     --model 'resnet18' \
     --interval_rate 4.0 \
-    --dataset 'cifar100' &\
+    --dataset 'cifar100'
   ```
 
 
