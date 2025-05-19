@@ -5,7 +5,7 @@
   </div>
 
   <div>
-      Guanglong Sun, Liyuan Wang, Liyuan Wang, Qian Li, Bo Lei and Yi Zhong
+      Guanglong Sun, Hongwei Yan, Liyuan Wang, Qian Li, Bo Lei and Yi Zhong
   </div>
 
   <div>
