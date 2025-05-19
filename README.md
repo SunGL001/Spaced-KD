@@ -20,7 +20,7 @@
 
 Official PyTorch implementation of our paper for Spaced Knowledge Distillation (Spaced KD) (ICML 2025).
 
-Our proposed Spaced KD is an accessible and compatible strategy to improve the effectiveness of both online KD and self KD, in which the student model distills knowledge from a teacher model trained with a space interval ahead. This strategy is inspired by a prominent theory named spacing effect in biological learning and memory, positing that appropriate intervals between learning trials can significantly enhance learning performance.
+Our proposed **Spaced KD** is an accessible and compatible strategy to improve the effectiveness of both online KD and self KD, in which the student model distills knowledge from a teacher model trained with a space interval ahead. This strategy is inspired by a prominent theory named **spacing effect** in biological learning and memory, positing that appropriate intervals between learning trials can significantly enhance learning performance.
 
 From our experiments, the space interval s is relatively insensitive and s = 1.5, s = 4.0 results in consistently strong improvements in Online KD and Self KD, respectively.
 
