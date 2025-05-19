@@ -100,7 +100,7 @@ To train a transformer-based models with spaced KD, please run:
 Configs of experiments of different ViT architectures and datasets are listed in `vit/configs`
 
 
-## Acknolegment
+## Acknowlegment
 This implementation is developed based on the source code of [self-KD](https://github.com/ArchipLab-LinfengZhang/pytorch-self-distillation-final) and [tiny-transformer](tiny-transformers).
 
 ## CITATION
