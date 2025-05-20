@@ -85,10 +85,8 @@ To train a CNN-based models with spaced self KD, please run:
 To train a transformer-based models with spaced KD, please run:
     
    1. Train from scratch (base model) of DeiT-Tiny over CIFAR-100
-      ```sh
-      cd ./vit
-   
        ```sh
+       cd ./vit
        python run_net.py --mode train --cfg configs/deit/deit-ti_c100_base.yaml
        ```
    
