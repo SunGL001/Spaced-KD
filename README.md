@@ -27,7 +27,7 @@ From our experiments, the space interval s is relatively insensitive and s = 1.5
 <p align="center">
 <img src="diagram.png" width="500" height="400">
 </p>
-![](diagram.png)
+
 
 ## How to run Spaced KD?
 
@@ -85,18 +85,20 @@ To train a CNN-based models with spaced self KD, please run:
 To train a transformer-based models with spaced KD, please run:
     
    1. Train from scratch (base model) of DeiT-Tiny over CIFAR-100
+      ```sh
+      cd ./vit
    
        ```sh
        python run_net.py --mode train --cfg configs/deit/deit-ti_c100_base.yaml
        ```
    
-   2. Train naive online KD of DeiT-Tiny over CIFAR-100
+   3. Train naive online KD of DeiT-Tiny over CIFAR-100
    
        ```sh
        python run_net.py --mode train --cfg configs/deit/deit-ti_c100_online.yaml
        ```
    
-   3. Train Spaced KD of DeiT-Tiny over CIFAR-100
+   4. Train Spaced KD of DeiT-Tiny over CIFAR-100
    
        ```sh
        python run_net.py --mode train --cfg configs/deit/deit-ti_c100_space_1_5.yaml
